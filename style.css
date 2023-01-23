@@ -1,0 +1,15 @@
+form {
+   width: 200px;
+   font-size: large;
+   display: flex;
+   flex-direction: column;
+   gap: 10px
+}
+form * {
+   width: 100%;
+}
+.error {
+   background-color: red;
+   color: aliceblue;
+   text-align: center;
+}
